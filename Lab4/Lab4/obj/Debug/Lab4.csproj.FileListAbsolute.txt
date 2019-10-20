@@ -1,0 +1,13 @@
+K:\ООП\Lab4\Lab4\bin\Debug\Lab4.exe.config
+K:\ООП\Lab4\Lab4\bin\Debug\Lab4.exe
+K:\ООП\Lab4\Lab4\bin\Debug\Lab4.pdb
+K:\ООП\Lab4\Lab4\obj\Debug\Lab4.csprojAssemblyReference.cache
+K:\ООП\Lab4\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
+K:\ООП\Lab4\Lab4\obj\Debug\Lab4.exe
+K:\ООП\Lab4\Lab4\obj\Debug\Lab4.pdb
+E:\ООП\Lab4\Lab4\bin\Debug\Lab4.exe.config
+E:\ООП\Lab4\Lab4\obj\Debug\Lab4.exe
+E:\ООП\Lab4\Lab4\obj\Debug\Lab4.pdb
+E:\ООП\Lab4\Lab4\bin\Debug\Lab4.exe
+E:\ООП\Lab4\Lab4\bin\Debug\Lab4.pdb
+E:\ООП\Lab4\Lab4\obj\Debug\Lab4.csprojResolveAssemblyReference.cache

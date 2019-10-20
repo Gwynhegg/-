@@ -1,0 +1,9 @@
+E:\ООП\Task1Remastered\Task1Remastered\bin\Debug\Task1Remastered.exe.config
+E:\ООП\Task1Remastered\Task1Remastered\bin\Debug\Task1Remastered.exe
+E:\ООП\Task1Remastered\Task1Remastered\bin\Debug\Task1Remastered.pdb
+E:\ООП\Task1Remastered\Task1Remastered\obj\Debug\Task1Remastered.csprojResolveAssemblyReference.cache
+E:\ООП\Task1Remastered\Task1Remastered\obj\Debug\Task1Remastered.Form1.resources
+E:\ООП\Task1Remastered\Task1Remastered\obj\Debug\Task1Remastered.Properties.Resources.resources
+E:\ООП\Task1Remastered\Task1Remastered\obj\Debug\Task1Remastered.csproj.GenerateResource.Cache
+E:\ООП\Task1Remastered\Task1Remastered\obj\Debug\Task1Remastered.exe
+E:\ООП\Task1Remastered\Task1Remastered\obj\Debug\Task1Remastered.pdb

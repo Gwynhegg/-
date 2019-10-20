@@ -1,0 +1,13 @@
+K:\ООП\Lab3\Lab3\bin\Debug\Lab3.exe.config
+K:\ООП\Lab3\Lab3\bin\Debug\Lab3.exe
+K:\ООП\Lab3\Lab3\bin\Debug\Lab3.pdb
+K:\ООП\Lab3\Lab3\obj\Debug\Lab3.csprojAssemblyReference.cache
+K:\ООП\Lab3\Lab3\obj\Debug\Lab3.csproj.CoreCompileInputs.cache
+K:\ООП\Lab3\Lab3\obj\Debug\Lab3.exe
+K:\ООП\Lab3\Lab3\obj\Debug\Lab3.pdb
+E:\ООП\Lab3\Lab3\bin\Debug\Lab3.exe.config
+E:\ООП\Lab3\Lab3\obj\Debug\Lab3.exe
+E:\ООП\Lab3\Lab3\obj\Debug\Lab3.pdb
+E:\ООП\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+E:\ООП\Lab3\Lab3\bin\Debug\Lab3.exe
+E:\ООП\Lab3\Lab3\bin\Debug\Lab3.pdb

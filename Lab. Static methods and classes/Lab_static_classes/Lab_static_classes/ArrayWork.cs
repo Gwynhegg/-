@@ -23,5 +23,10 @@ namespace Lab_static_classes
             Console.WriteLine("Среднее значение = " + (double)(sum / a.Length));
         }
 
+        public static void getSomething()
+        {
+            Console.WriteLine("ЫЫЫЫЫ");
+        }
+
     }
 }

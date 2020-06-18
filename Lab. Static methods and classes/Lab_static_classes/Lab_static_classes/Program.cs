@@ -19,6 +19,7 @@ namespace Lab_static_classes
             Console.WriteLine("Ответ, полученный с помощью всемогущей рекурсии = " + answer);
             answer = staticSimpleFirstTask(input_data);
             Console.WriteLine("Ответ, полученный обычным способом = " + answer);
+            Console.ReadKey();
 
             //Задание 2
             Console.WriteLine("Введите аргумент для вычисления суммы квадратов натуральных чисел:");
@@ -27,9 +28,10 @@ namespace Lab_static_classes
             Console.WriteLine("Сумма, полученная способов бесподобной рекурсии = " + answer);
             answer = staticSimpleSumOfNatural(input_data);
             Console.WriteLine("Сумма, полученная скучным методом = " + answer);
+            Console.ReadKey();
 
             //Задание 3
-            Console.WriteLine("Введите количество элементов, которые будет содержать образованный массив:");
+            Console.WriteLine("Введите количество элементов, которые будет содержать расширенный массив:");
             input_data = Int32.Parse(Console.ReadLine());
             Random rnd = new Random();
             int[] new_array = new int[rnd.Next(1, 10)];
@@ -44,9 +46,10 @@ namespace Lab_static_classes
             Console.WriteLine("Массив после изменения:");
             for (int i = 0; i < array_ref.Length; i++) Console.Write(array_ref[i] + " ");
             Console.WriteLine();
+            Console.ReadKey();
 
             //Задание 4
-            Console.WriteLine("Введите количество элементов в символьном массиве, который будет пребразван в числовой:");
+            Console.WriteLine("Введите количество элементов в символьном массиве, который будет пребразован в числовой:");
             input_data = Int32.Parse(Console.ReadLine());
             char[] char_array = new char[input_data];
             Console.WriteLine("Созданный символьный массив:");
@@ -59,6 +62,7 @@ namespace Lab_static_classes
             Console.WriteLine("Целочисленный массив кодов символов:");
             int[] char_ref =  staticRefChars(ref char_array);
             Console.WriteLine(string.Join(" ", char_ref));
+            Console.ReadKey();
 
             //Задание 5
             Console.WriteLine("Введите количество элементов в массиве, для которого будет вычислено среднее значение:");
@@ -72,7 +76,10 @@ namespace Lab_static_classes
             }
             Console.WriteLine();
             Console.WriteLine("Среднее значение элементов массива = " + staticAverage(numbers_array));
-
+            Console.ReadKey();
+            */
+                int input_data;
+            Random rnd = new Random();
             //Задание 6
             Console.WriteLine("Введите размер двухмерного массива:");
             input_data = Int32.Parse(Console.ReadLine());
@@ -84,6 +91,7 @@ namespace Lab_static_classes
                 }
             int i1, i2;
             Console.WriteLine("Максимальное значение массива: " + staticFindMax(numbers, out i1, out i2));
+            Console.ReadKey();
 
             //Задание 7
             Console.WriteLine("Введите количество элементов в символьном массиве:");
@@ -99,6 +107,7 @@ namespace Lab_static_classes
             chars_array = staticSwapChars(chars_array);
             Console.WriteLine("После замены: ");
             Console.WriteLine(string.Join(" ", chars_array));
+            Console.ReadKey();
 
             //Задание 8
             Console.WriteLine("Введите два числа или символа через пробел для создания массива:");
@@ -121,20 +130,22 @@ namespace Lab_static_classes
 
                 }
             }
+            Console.ReadKey();
 
             //Задание 9
             Console.WriteLine("Введите произвольное количество числовых переменных для нахождения максимума и минимума:");
             int[] min_max = staticFindMinMax(Console.ReadLine().Split(' '));
             Console.WriteLine("Найденный минимум: " + min_max[0] + " , найденный максимум: " + min_max[1]);
+            Console.ReadKey();
 
             //Задание 10
             Console.WriteLine("Введите текст. После к нему будут добавленный символы:");
             string text = Console.ReadLine();
             Console.WriteLine("Введите произвольное количество символов (через пробел), для добавления в строку:");
             Console.WriteLine("Сформированная строка = " + staticAddText(text, Console.ReadLine().Split(' ')));
-            */
             Console.WriteLine(new string('-', 100));
             Console.WriteLine("НАЧИНАЕМ РАБОТУ С КЛАССАМИ, СЛАВА ИМПЕРАТОРУ!");
+            Console.ReadKey();
 
             //Задания по главе 6. Классы
             //Задание 1
@@ -147,6 +158,7 @@ namespace Lab_static_classes
             new_symbol.setSymb('a');
             new_symbol.getInfo();
             Console.WriteLine();
+            Console.ReadKey();
 
             //Задание 2
             Console.WriteLine("Задание 2");
@@ -154,6 +166,7 @@ namespace Lab_static_classes
             Range.start = 'G';
             Range.showRange();
             Console.WriteLine();
+            Console.ReadKey();
 
             //Задание 3
             Console.WriteLine("Задание 3");
@@ -163,6 +176,7 @@ namespace Lab_static_classes
             second_try.getArgs();
             TwoFriends third_try = new TwoFriends(1, 3);
             third_try.getArgs();
+            Console.ReadKey();
 
             //Задание 4
             Console.WriteLine("Задание 4");
@@ -170,6 +184,7 @@ namespace Lab_static_classes
             first.getArgs();
             StrangeSymbols second = new StrangeSymbols(90.65);
             second.getArgs();
+            Console.ReadKey();
 
             //Задание 5
             Console.WriteLine("Задание 5");
@@ -178,6 +193,7 @@ namespace Lab_static_classes
             not_send.getValue();
             not_send.setValue(1050);
             not_send.getValue();
+            Console.ReadKey();
 
             //Задание 6
             Console.WriteLine("Задание 6");
@@ -187,6 +203,7 @@ namespace Lab_static_classes
             first_maxmin.getMaxMin();
             first_maxmin.updateMaxMin(9, -5);
             first_maxmin.getMaxMin();
+            Console.ReadKey();
 
             //Задание 7
             Console.WriteLine("Задание 7");
@@ -197,17 +214,20 @@ namespace Lab_static_classes
             new_chartext.updateParam(new char[]{'g'});
             new_chartext.updateParam(new char[] { 'a', 'b', 'c' });
             new_chartext.getValues();
+            Console.ReadKey();
 
             //задание 8
             Console.WriteLine("Задание 8");
             Value new_value = new Value();
             for (int i = 0; i < 10; i++) new_value.getValue();
+            Console.ReadKey();
 
             //Задание 9
             Console.WriteLine("Задание 9");
-            ArrayWork new_array = new ArrayWork();
-            new_array.getInfo(1, 2, 3, 4, 5, 6, 7, 8, 9, 45);
-            new_array.getInfo(new int[] { 1, 6, 7, 9, 10, 6 });
+            ArrayWork new_arrayWork = new ArrayWork();
+            new_arrayWork.getInfo(1, 2, 3, 4, 5, 6, 7, 8, 9, 45);
+            new_arrayWork.getInfo(new int[] { 1, 6, 7, 9, 10, 6 });
+            Console.ReadKey();
 
             //задание 10
             Console.WriteLine("Задание 10");
